@@ -74,21 +74,46 @@ body {
 
 h1, h2, h3, h4 {
     color: #4B8584;
-    font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #8D8984;
 }
 
 p {
     margin-top: .5em;
     margin-bottom: .5em;
+    line-height: 1.2em;
+}
+
+a {
+    color: #8D8984;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4B8584;
 }
 
 button {
-    margin: .5em;
-    width: 200px;
-    background: red;
     padding: 10px 15px;
+    background-color: #F7CE06;
+    color: #8D8984;
+    font-weight: 700;
+    font-size: 1em;
+    border: none;
+    border-radius: 3px;
 }
 
 /** Header **/
@@ -112,6 +137,16 @@ header li {
     display: inline;
 }
 
+header a {
+    color: #F7CE06;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #F5E8C3;
+}
+
 .header__link, .footer__link {
     color: #F5E8C3;
     text-decoration: none;
@@ -122,8 +157,7 @@ header li {
 }
 
 .header__link:hover, .footer__link:hover {
-    background-color: #79CCC9;
-    box-shadow: 1px 1px 1px #8D8984;
+    background: linear-gradient(to right,rgba(75, 133, 132, 1) 0%, rgba(121, 204, 201,1) 70%);
 }
 
 
@@ -135,7 +169,7 @@ header li {
     /* background-color: #79CCC9; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right,#4B8584 0%,#79CCC9 100%),url("../images/main.jpg");
+    background-image: linear-gradient(to right,#4B8584 50%,#79CCC9 110%),url("../images/main.jpg");
     background-blend-mode:darken;
     color: #F5E8C3;
 }
@@ -153,12 +187,14 @@ header li {
 
 }
 
-.hero__btn {
-    background-color: #F7CE06;
-    color: #8D8984;
-    font-weight: 700;
-    font-size: 1em;
-    border: none;
-    border-radius: 3px;
+/* Main Section */
+
+.main button {
+    background: linear-gradient(to right,rgba(75, 133, 132, 1) 50%, rgba(121, 204, 201,1) 110%);
+    color: #F5E8C3;
 }
 
+.main button:hover {
+    background: linear-gradient(to right,rgba(75, 133, 132, 1) 0%, rgba(121, 204, 201,1) 70%);
+    color: #F7CE06;
+}

@@ -1,0 +1,17 @@
+.hero h2 {
+    color: #F7CE06;
+    text-transform: uppercase;
+}
+
+section #featured{
+    text-align: center;
+}
+
+.main article {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: 50px;
+    text-align: center;
+}
