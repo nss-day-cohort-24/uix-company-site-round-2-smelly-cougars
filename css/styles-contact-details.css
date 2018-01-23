@@ -1,0 +1,85 @@
+/* 
+.flex-container-contact
+.field-group-1
+.field-box
+.notice-button
+
+#tell-us-about 
+
+/*
+
+/* CONTACT PAGE STYLES ======================= */
+
+.get-in-touch {
+    margin-left: 1em;
+}
+
+.flex-container-contact { /* this is the "flex container" */
+    display: flex;
+    flex-direction: row; /* this is the default */
+    flex-wrap: wrap; /* this allows the items to wrap on small screens */
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.field-group-1, .field-group-2 { /* these are the "flex items" i think */
+    background-color: #79CCC9;
+    border-radius: 10px;
+    width: 38%;
+    height: 10em;
+    padding: 1.5em;
+    margin: 1em;    
+}
+
+.field-group-2 {
+    order: 1; /* this is experimental--to see how flex can change the order--if set @ -1 it reverses the order of the 2 boxes--the default is 0. */
+}
+
+input[type=text] {
+    width: 60%;
+    padding: .5em;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+input[type=text]:focus {
+    border: 2px solid #F5E8C3;
+}
+
+textarea {
+    width: 100%;
+    height: 95%;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+textarea:focus {
+    border: 2px solid #F5E8C3;
+}
+
+/* .notice-button {
+    color: #012d5a;
+    background-color: #a5bb2a;
+    font-size: 1.2em;
+    padding: .2em;
+    margin-left: 1em;
+    text-align: center;
+    width: 10%;
+    border-radius: 15px;
+  } */
+
+  .connect {
+      margin-left: 1em;
+  }
+  
+  .social-media-buttons {
+      width: 42px;
+      height: 42px;
+  }
+
+/* END OF CONTACT PAGE STYLES ================== */
+
