@@ -24,6 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,7 +49,7 @@ table {
 	border-spacing: 0;
 } /** END reset css **/
 
-/**** Global CSS ****/
+/**************** Global CSS ****************/
 
 /* Start Container **/
 
@@ -71,7 +72,7 @@ footer div.container {
     margin-bottom: 0;
 }
 
-/* Main Sections */
+/* Main Styles */
 
 body {
     background-color: #D9DEDE;
@@ -79,19 +80,31 @@ body {
     font-size: 16px;
 }
 
+h1, h2, h3, h4 {
+    color: #4B8584;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+/** Header **/
+
 header, footer {
-    display: flex;
-    justify-content: space-between;
     background-color: #4B8584;
     color: #F5E8C3;
 }
 
-.header__nav {
-    font-size: 1.2em;
+header img {
+    display: inline-block;
 }
 
-.header__nav ul {
-    display: flex;
+header nav {
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+header li {
+    display: inline;
 }
 
 .header__link, .footer__link {
@@ -107,3 +120,17 @@ header, footer {
     background-color: #79CCC9;
     box-shadow: 1px 1px 1px #8D8984;
 }
+
+.header__btn {
+    background: red;
+    width: 300px;
+    height: 100px;
+    padding: 10px 15px;
+}
+
+/* Hero Section */
+
+.hero__h1, .hero__p, .hero__btn {
+
+}
+
