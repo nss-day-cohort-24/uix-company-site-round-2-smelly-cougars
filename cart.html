@@ -36,32 +36,24 @@
                     <p>Subtotal</p>
                 </header>
                 <section class="cartItem">
-                    <p class="product">Jazz Harmony 1 Tutorial</p>
-                    <form>
-                        <input type="number" name="quantity">
+                    <p class="product" id="product1">Jazz Harmony 1 Tutorial</p>
+                    <form id="product1Quantity">
+                        <input type="number" name="quantity" value="1">
                     </form>
-                    <p class="price"></p>
-                    <p class="subtotal"></p>
-                </section>
-                <section class="cartItem">
-                    <p class="product">Jazz Harmony 1 Tutorial</p>
-                    <form>
-                        <input type="number" name="quantity">
-                    </form>
-                    <p class="price"></p>
-                    <p class="subtotal"></p>
+                    <p class="price" id="product1price">0.99</p>
+                    <p class="subtotal" id="product1total"></p>
                 </section>
             </section>
             <section>
                 <div>
-                    <button></button>
-                    <button></button>
+                    <a href="/tutorials.html"><button>Back to Tutorials</button></a>
+                    <button onclick="recalculate();">Recalculate</button>
                 </div>
                 <div>
-                    <button></button>
+                    <button>Proceed</button>
                 </div>
             </section>
-        <!-- </div><!-- END changes for hero header -->
+        </div><!-- END changes for hero header -->
     </section> 
         </div> <!-- END changes for main section -->
     </section> -->
@@ -73,5 +65,7 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/tutorials.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 </html>
