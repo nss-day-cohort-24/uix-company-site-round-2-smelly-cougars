@@ -1,83 +1,26 @@
 # Group Project UIX: Company Site
 
-As a team, build the web site for a fictitious product company. The team gets to decide the name of the company and what types of products it manufactures/sells. Be creative and have fun.
+# STAR FACTOR:
+NOTE: Team Smelly Cougars, the Cohort 24 of Nashville Software School, created this website for a fictitious company IDEO. We based the style guide on https://issuu.com/aanhalt/docs/oi_brand_guidelines_su15 we used the color palette and Lato (google font) for the website.
+Smelly Cougars worked on the Persona with Insecure singer/musician. After two interviews with insecure musicians, we came up with LiAnna - The Budding Artist. 
 
-## Setup
+## Plan and Design
+	1.	Problem statement: How might we help LiAnna build confidence within herself and enable her to grow a fanbase?
+	2.	Primary user persona: 
+TYPE: Early Adopter musician that have great work ethic strives to be a perfectionist. While being empathetic, the musician cares about what people think of them. They are also tech savvy and financially stable but socially introverts. Lacks self confidence and afraid of being around people.
 
-Every teammate will copy and run the following commands in the host machine terminal.
+## HTML, CSS and JS
+1. Semantic HTML was used with each page having one meaning h1.
+2. Each individual page has it’s own css with a main.css style common element like nav, header image, footer.
+3. Looking at the website and code, we decided to keep the majority of the written content, logo as a text, navigation titles, all pages except Shine Out page and background image on the home page.
+4. We modified CSS, changed colors to make the template consistent throughout the website. 
+5. We created the hero section as a place to describe page information with Call To Action. We added the Shopping Cart, Product Detail and About page and removed Shine Out page. Changed the looks of about page to show information in boxes with two columns on a page. 
+7. We decided to go with one JS code for all pages. All pages contain one “hero button” that points to the tutorials page with JS in it. The tutorial page is populated by JavaScript. The Shopping Cart has javascript functionality.
 
-```bash
-mkdir -p ~/workspace/group-projects && cd $_
-```
+## For Version 3.0:
+Testimonials could be added to Shine Out page.
 
-## Requirements
-
-### Theme
-
-Pick a theme that the team likes. A good place for inspiration is the [Wordpress themes](https://wordpress.org/themes/) site. Do not purchase, or copy the theme code, just browse them for inspiration. Everyone should agree on a theme and ensure that each page is consistent with the colors, fonts, and/or images chosen.
-
-### Pages
-Each team member is going to be responsible for the **content** of a different page, so decide on the name and content for each of those pages. Some possible options are...
-
-1. Home page
-1. Products
-1. Employee listing/contact
-1. Company history
-1. Company culture/mission
-1. Job listings
-1. Company awards
-1. Office locations
-
-Regardless of the pages each team member works on, each team must have a **Products** page for their site that the team will collaborate on. See more details about the product page below.
-
-### Git
-Your team is going to learn how to use git to enable good teamwork when building a software product.
-1. Team leads will accept the assignment and create a team (with team name). Members will then join the team.
-1. Now that everyone has joined the same team, everyone clone the Github Classroom project into your current directory - which should be `group-projects` if you ran the setup commands.
-1. `cd` into the directory that was created.
-1. Before anyone on the team writes a single line of code, the team will decide on a branch naming strategy. Branches should be descriptive of the work that is going to be done on that branch. Some teams also decide to add the developer's information to the branch name, such as initials. For example, a developer named Jasmine Sheboygen is going to work on the job listings page for the web site. A good name for the branch would be `js-job-listing-page`.
-1. Before you write any code, one team member will create the ignore file **on a branch**. Be sure to add `.DS_Store`
-    1. `touch .gitignore`
-    1. `git add .`
-    1. `git commit -m "Initial commit with .gitignore file"`
-    1. `git push origin YOUR BRANCH NAME`
-1. Now make a PR and have your team approve and merge into master.
-1. Now everyone should `git pull origin master`.
-1. Do NOT work on master. Each teammate will create a branch.
-
-Everyone will work on their page on individual branches. Only when teammates feel their work is complete, the teammate will push up their branch to Github and create a pull request. One of the other teammates must review the pull request and give a thumbs up (Just type :+1 in the comment box).
-
-Once the PR gets a thumbs up, the teammates can merge the branch. Follow the one way street flow. 
-
-Once the master is updated on Github, you may need to update your local branch.  Again, follow the one way street.
-1. Checkout master and pull Github master into local master.
-1. Checkout your branch
-1. Within your branch, merge master
-
-### Products page
-
-The team's product page will be driven from JavaScript code. Decide on at least, 8 products that your business manufactures. The product page must have a linked JavaScript file.
-
-1. Create a data structure to hold your products. This could be an array of objects or an object of objects. Discuss with your teammates.
-1. Each product item needs to contain the following information: name, description, price, and URL for product image. You can add more properties if that's what the team wants, but it must have those.
-1. The team will use JavaScript to add each product to the DOM.
-1. Each product must be a card. As a team, decide on the style of the card.
-1. The layout of the product page should be a grid of cards. 3-wide, 4-wide, 5-wide, the teams must decide how many cards are on each row.
-
-### HTML and CSS
-1. Use emantic HTML.
-1. Each page should have one meaningful and important headline (h1).
-1. All styles included within css file.
-
-
-## Plan and Design First
-1. Define problem statement           
-1. Define primary user persona 
-1. User Interviews (50% interview, 50% team/SMEs)
-1. Use your whiteboard and communication skills to wireframe each page before you build it.
-    * What information will be on the page?
-    * How should the information be presented?
-    * What is the layout? Just a list, or a grid? Sketch the views (whiteboard, pencil/pen)
+-----------------------------------------------------------
 
 ## Bonus
 
