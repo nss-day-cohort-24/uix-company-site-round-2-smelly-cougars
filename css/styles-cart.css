@@ -1,0 +1,18 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    background: #D9DEDE;
+    color: #8D8984;
+}
+
+.cart header, .cart section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart header {
+    background: none;
+    color: #8D8984;
+    font-weight: 700;
+}
+
