@@ -1,3 +1,7 @@
+.hero {
+    padding-bottom: 55px;
+}
+
 .cart {
     display: flex;
     flex-direction: column;
@@ -16,3 +20,26 @@
     font-weight: 700;
 }
 
+.cart footer {
+    background: rgb(123, 120, 116);
+    font-weight: 700;
+}
+
+.hero footer p {
+    float: right;
+    margin-right: 55px;
+}
+
+#cartButtons {
+    margin-top: 10px;
+}
+
+#cartButtons #buttons1 {
+    display: inline-block;
+    float: left;
+}
+
+#cartButtons #buttons2 {
+    display: inline-block;
+    float: right;
+}

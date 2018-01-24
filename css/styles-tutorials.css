@@ -1,0 +1,29 @@
+.card img {
+    height: 95%;
+    width: 95%;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.card {
+    background-color: #F5E8C3;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 10px;
+}
+
+.card:hover {
+    background-color: #79CCC9;
+}
+
+h3 {
+    margin-top: .5em;
+}
+
+
