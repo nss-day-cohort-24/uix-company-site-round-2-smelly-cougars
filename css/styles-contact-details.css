@@ -48,6 +48,23 @@ input[type=text]:focus {
     border: 2px solid #F5E8C3;
 }
 
+.field-box {
+    display: block;
+    height: 50px;
+    margin: 20px;
+    text-align: right
+}
+
+/* .field-box input [type=text]; */
+
+.field-box:first-child {
+    margin-top: 0;
+}
+
+.field-box:last-child {
+    margin-bottom: 0;
+}
+
 textarea {
     width: 100%;
     height: 95%;
