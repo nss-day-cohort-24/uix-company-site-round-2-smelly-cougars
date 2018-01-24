@@ -77,8 +77,8 @@ textarea:focus {
   }
   
   .social-media-buttons {
-      width: 42px;
       height: 42px;
+      font-size: 1.8em;
   }
 
 /* END OF CONTACT PAGE STYLES ================== */
